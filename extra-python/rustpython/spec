@@ -1,0 +1,3 @@
+VER=0.1.0+git20191207
+GITSRC=https://github.com/RustPython/RustPython/
+GITCO="a04c19ccb0f5e7e1774d5e6f267ffed3ee27aeae"
