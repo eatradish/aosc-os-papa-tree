@@ -1,3 +1,3 @@
-VER=13.3.0
+VER=13.5.0
 SRCTBL="https://github.com/nodejs/node/archive/v$VER.tar.gz"
-CHKSUM="sha256::486692d543e1eba2902b38a681da0e1d48336e68d2a602cd002f51f6b849a319"
+CHKSUM="sha256::1797081058e214e97c832dd4aff717e09affe77fcafeb50f19208d404a2e74e7"
