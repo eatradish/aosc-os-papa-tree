@@ -1,6 +1,0 @@
-export CC="gcc-multilib-wrapper" CXX="g++-multilib-wrapper"
-
-. autobuild/amd64/build64
-. autobuild/amd64/build32
-
-PATH=/usr/bin:$PATH

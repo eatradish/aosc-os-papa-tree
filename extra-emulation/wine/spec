@@ -1,3 +1,0 @@
-VER=5.0~rc1
-SRCTBL="https://dl.winehq.org/wine/source/5.0/wine-${VER/\~/-}.tar.xz"
-CHKSUM="sha256::062436f9865a16cb6c0e99f836e5841a315c73bb76278042ede45828aa15e338"
