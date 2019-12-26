@@ -1,0 +1,42 @@
+From 25c4c2244106e1dc07c1f177c22444a8fadfe31c Mon Sep 17 00:00:00 2001
+From: fplust <fplustlu@gmail.com>
+Date: Thu, 24 Oct 2019 15:41:19 +0800
+Subject: [PATCH] =?UTF-8?q?=E4=BB=8E=20cargo=20=E7=9A=84=E7=8E=AF=E5=A2=83?=
+ =?UTF-8?q?=E5=8F=98=E9=87=8F=E4=B8=AD=E8=8E=B7=E5=8F=96=E7=89=88=E6=9C=AC?=
+ =?UTF-8?q?=E5=8F=B7?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ netease-cloud-music-gtk.desktop | 2 +-
+ src/main.rs                     | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/netease-cloud-music-gtk.desktop b/netease-cloud-music-gtk.desktop
+index 76ec204..7bc8046 100644
+--- a/netease-cloud-music-gtk.desktop
++++ b/netease-cloud-music-gtk.desktop
+@@ -1,5 +1,5 @@
+ [Desktop Entry]
+-Version=0.6.0
++Version=0.7.0
+ Type=Application
+ Name=NetEase Cloud Music
+ Name[zh_CN]=网易云音乐
+diff --git a/src/main.rs b/src/main.rs
+index 8f2a043..c66fedb 100644
+--- a/src/main.rs
++++ b/src/main.rs
+@@ -13,7 +13,7 @@ mod view;
+ mod widgets;
+ use crate::app::App;
+ use std::collections::HashMap;
+-static APP_VERSION: &str = "0.7.0";
++static APP_VERSION: &str = env!("CARGO_PKG_VERSION");
+ 
+ lazy_static! {
+     // 配置文件目录
+-- 
+2.24.1
+
