@@ -1,4 +1,9 @@
-cargo build --release --locked --features sqlite
+unset CPPFLAGS CFLAGS CXXFLAGS LDFLAG
+
+curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain nightly -y
+export PATH=$HOME/.cargo/bin:$PATH
+
+cargo +nightly build --release --locked --features sqlite
 
 install -D -m 0644 "$SRCDIR/.env.template" "$PKGDIR/etc/bitwarden_rs.env"
 install -D -m0755 "$SRCDIR/target/release/bitwarden_rs" "$PKGDIR/usr/bin/bitwarden_rs"
