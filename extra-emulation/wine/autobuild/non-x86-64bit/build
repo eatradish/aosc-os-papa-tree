@@ -1,0 +1,13 @@
+./configure \
+      --prefix=/usr \
+      --with-x \
+      --with-xattr \
+      --with-dbus \
+      --with-gstreamer \
+      --with-d3dadapter \
+      --with-va \
+      --with-gtk3 \
+      --with-pulse \
+      --with-vulkan
+make
+make DESTDIR="$PKGDIR" install -j1
