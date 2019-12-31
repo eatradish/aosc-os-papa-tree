@@ -1,0 +1,4 @@
+VER=1.3.92
+SRCTBL="https://github.com/clementine-player/Clementine/archive/$VER.tar.gz"
+CHKSUM="sha256::4396e4559b31549db0f2b8a85480a929818b6a2be713a6e1284d92fac73a8736"
+SUBDIR="Clementine-$VER"
