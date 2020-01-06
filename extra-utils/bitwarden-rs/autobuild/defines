@@ -1,4 +1,0 @@
-PKGNAME="bitwarden-rs"
-PKGDES="Unofficial Bitwarden compatible server written in Rust"
-PKGDEP="openssl"
-PKGSEC="utils"

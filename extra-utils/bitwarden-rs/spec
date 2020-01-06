@@ -1,4 +1,0 @@
-VER=1.13.0
-SRCTBL="https://github.com/dani-garcia/bitwarden_rs/archive/$VER.tar.gz"
-CHKSUM="sha256::fadf75b9d65cfb973dd41494e9a969cb941f9b17a1abf1ffee76fc330d4d7a30"
-

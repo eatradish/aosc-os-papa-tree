@@ -1,4 +1,0 @@
-PKGNAME="bitw"
-PKGDES="Minimalist BitWarden client"
-BUILDDEP="go"
-PKGSEC="utils"

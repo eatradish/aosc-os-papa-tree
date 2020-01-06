@@ -1,4 +1,0 @@
-export GOPATH="$SRCDIR.."
-cd $(mktemp -d); go mod init tmp; go get mvdan.cc/bitw
-mkdir -p $PKGDIR/usr/bin
-cp $GOPATH/bin/bitw $PKGDIR/usr/bin
