@@ -1,0 +1,3 @@
+VER=20200118
+GITSRC="https://github.com/fcitx/fcitx5-qt"
+GITCO="2e38c95da9fa0f8c24f8907858d4d04f16df07a6"
