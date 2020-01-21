@@ -1,0 +1,3 @@
+VER=5.17.90
+SRCTBL="https://download.kde.org/unstable/plasma/$VER/sddm-kcm-$VER.tar.xz"
+CHKSUM="sha256::2fcffad1689c4dfa28ee9fedbedec39a010a21659fc5ddae9b3c6a7db38be0bd"

@@ -1,0 +1,8 @@
+PKGNAME=discover
+PKGSEC=kde
+PKGDEP="aosc-appstream-data appstream-qt kdeclarative kirigami2 kitemmodels \
+        knewstuff packagekit-qt flatpak"
+BUILDDEP="extra-cmake-modules plasma-framework"
+PKGDES="The KDE Plasma interface for desktop computers"
+
+CMAKE_AFTER="-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"

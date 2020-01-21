@@ -1,0 +1,3 @@
+VER=5.17.90
+SRCTBL="https://download.kde.org/unstable/plasma/$VER/breeze-plymouth-$VER.tar.xz"
+CHKSUM="sha256::f69b4a496ef8796bcb41327a51590d0db542c77dde365177b31c6ef16c6f00f3"
