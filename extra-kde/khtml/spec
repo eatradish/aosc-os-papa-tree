@@ -1,0 +1,3 @@
+VER=5.66.0
+SRCTBL="https://download.kde.org/stable/frameworks/${VER:0:4}/portingAids/khtml-$VER.tar.xz"
+CHKSUM="sha256::ee34b082760262fb9b5e287960955075ec72179585e51567350a08bf0b4b7a10"

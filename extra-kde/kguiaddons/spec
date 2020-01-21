@@ -1,0 +1,3 @@
+VER=5.66.0
+SRCTBL="https://download.kde.org/stable/frameworks/${VER:0:4}/kguiaddons-$VER.tar.xz"
+CHKSUM="sha256::379e5ed87b00d344a13e424e39d97d74d494c503400bcd72df132de74c8cc591"

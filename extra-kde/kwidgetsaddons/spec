@@ -1,0 +1,3 @@
+VER=5.66.0
+SRCTBL="https://download.kde.org/stable/frameworks/${VER:0:4}/kwidgetsaddons-$VER.tar.xz"
+CHKSUM="sha256::311d8274469f03b1938da5a4f7ad17c82e3f96bc79ec28624cb748b13403f451"

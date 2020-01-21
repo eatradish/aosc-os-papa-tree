@@ -1,0 +1,3 @@
+VER=5.66.0
+SRCTBL="https://download.kde.org/stable/frameworks/${VER:0:4}/networkmanager-qt-$VER.tar.xz"
+CHKSUM="sha256::3089951c69845c4f6d1848bbbaf05116a72d4207a9f2d63b063a76c78549bf45"

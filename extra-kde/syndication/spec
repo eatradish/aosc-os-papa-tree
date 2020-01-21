@@ -1,0 +1,3 @@
+VER=5.66.0
+SRCTBL="https://download.kde.org/stable/frameworks/${VER:0:4}/syndication-$VER.tar.xz"
+CHKSUM="sha256::5e6c90360461b820a48069af2838cffbcbedfe8bcd042535823e1cf1b43cd6b7"

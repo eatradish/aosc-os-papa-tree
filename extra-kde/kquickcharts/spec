@@ -1,0 +1,3 @@
+VER=5.66.0
+SRCTBL="https://download.kde.org/stable/frameworks/${VER:0:4}/kquickcharts-$VER.tar.xz"
+CHKSUM="sha256::70fae10b2af1c504e3b166beb0a342cdef0e0f8eb42e53ba88f0e3b174331624"
