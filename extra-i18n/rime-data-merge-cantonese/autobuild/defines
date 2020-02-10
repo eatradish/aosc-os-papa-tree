@@ -1,5 +1,5 @@
-PKGNAME="rime-data-merge-cantonese"
-PKGDES="Rime schema repository from plum, Merge rime-cantonese"
+PKGNAME="rime-data"
+PKGDES="Rime schema repository from plum"
 BUILDDEP="git librime"
 PKGCONFL="brise rime-data"
 PKGSEC=localization
