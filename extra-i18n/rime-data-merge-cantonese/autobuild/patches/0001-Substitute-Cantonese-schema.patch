@@ -1,0 +1,25 @@
+From cb57dac3ef4ff52913596c45a0c15d60ffb6fe05 Mon Sep 17 00:00:00 2001
+From: Mingcong Bai <jeffbai@aosc.xyz>
+Date: Mon, 10 Feb 2020 05:12:15 +0000
+Subject: [PATCH] Substitute Cantonese schema
+
+---
+ extra-packages.conf | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/extra-packages.conf b/extra-packages.conf
+index fb5b056..42244aa 100755
+--- a/extra-packages.conf
++++ b/extra-packages.conf
+@@ -6,7 +6,7 @@ package_list+=(
+     double-pinyin
+     emoji
+     ipa
+-    jyutping
++    cantonese
+     middle-chinese
+     pinyin-simp
+     quick
+--
+2.24.1
+
